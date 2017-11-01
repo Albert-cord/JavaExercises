@@ -60,8 +60,8 @@ public class StoryCharacters implements Generator<Star>, Iterable<Star> {
         return false;
     }*/
     @Override
-    public boolean hasNext() {
+    /*public boolean hasNext() {
         // TODO Auto-generated method stub
         return false;
-    }
+    }*/
 }

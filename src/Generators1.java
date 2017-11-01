@@ -5,7 +5,7 @@ import story.*;
 
 public class Generators1 {
     @SuppressWarnings("unchecked")
-    public static <T> Collection<T> fill(Collection<T> coll, StoryCharacters gen, int n){
+    public static <T, W> Collection<T, W> fill(Collection<T> coll, W gen, int n){
         for(int i = 0; i < n; i++) {
             coll.add((T) gen.next());
         }
